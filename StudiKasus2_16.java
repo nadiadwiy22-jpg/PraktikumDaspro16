@@ -8,7 +8,8 @@ public class StudiKasus2_16 {
 
         System.out.print("Nama mahasiswa: ");
         namaMahasiswa = sc.nextLine();
-        
+
+        System.out.print("Jenis kegiatan: ");
     }
     
 }
