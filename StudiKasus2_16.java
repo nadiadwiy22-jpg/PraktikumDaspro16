@@ -10,6 +10,14 @@ public class StudiKasus2_16 {
         namaMahasiswa = sc.nextLine();
 
         System.out.print("Jenis Kegiatan: ");
+        jenisKegiatan = sc.nextLine();
+
+        System.out.print("Jumlah dokumen yang diupload: ");
+        jumlahDokumen = sc.nextInt();
+
+        if (jenisKegiatan.equalsIgnoreCase("BELMAWA") ||
+        jenisKegiatan.equalsIgnoreCase("BAKORMA") ||
+
 
 
 
