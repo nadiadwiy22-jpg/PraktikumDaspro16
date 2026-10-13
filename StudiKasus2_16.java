@@ -9,6 +9,8 @@ public class StudiKasus2_16 {
         System.out.print("Nama Mahasiswa: ");
         namaMahasiswa = sc.nextLine();
 
+        System.out.print("Jenis Kegiatan: ");
+
 
 
 
