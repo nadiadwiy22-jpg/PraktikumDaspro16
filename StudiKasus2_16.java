@@ -7,6 +7,8 @@ public class StudiKasus2_16 {
         int jumlahDokumen, peringkat, statusPendanaan, kurang;
 
         System.out.print("Nama mahasiswa: ");
+        namaMahasiswa = sc.nextLine();
+        
     }
     
 }
