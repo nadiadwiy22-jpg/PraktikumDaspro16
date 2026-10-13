@@ -5,7 +5,10 @@ public class StudiKasus2_16 {
 
         String namaMahasiswa, jenisKegiatan;
         int jumlahDokumen, peringkat, statusPendanaan, kurang;
+
+        System.out.print("Nama Mahasiswa: ");
         
+
 
     }
     
