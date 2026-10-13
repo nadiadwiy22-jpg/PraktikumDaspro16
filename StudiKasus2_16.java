@@ -21,6 +21,7 @@ public class StudiKasus2_16 {
 
         System.out.print("Peringkat juara: ");
         peringkat = sc.nextInt();
+        
 
 
 
