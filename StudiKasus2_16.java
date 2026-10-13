@@ -41,6 +41,16 @@ public class StudiKasus2_16 {
                 System.out.println("Status: Dokumen lengkap. Dana penghargaan diberikan.");
             } else {
                 System.out.println("Status: Dokumen lengkap, tetapi tidak lolos pendanaan. Dana penghargaan tidak diberikan.");
+                 }
+        } else {
+            System.out.println("Status: Tidak lolos pendanaan. Dana penghargaan tidak diberikan.");
+        }
+    } else {
+        if (jumlahDokumen == 4) {
+            System.out.println("Status: Dokumen lengkap, tetapi jenis kegiatan tidak valid. Tidak dapat dana penghargaan");
+        } else {
+            System.out.println("Dokumen tidak lengkap dan jenis kegiatan tidak valid. Tidak dapat dana penghargaan");
+        }
 
 
     }
