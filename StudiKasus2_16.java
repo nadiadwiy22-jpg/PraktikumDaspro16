@@ -16,7 +16,6 @@ public class StudiKasus2_16 {
         jumlahDokumen = sc.nextInt();
         if (jenisKegiatan.equalsIgnoreCase("BELMAWA") ||
         jenisKegiatan.equalsIgnoreCase("BAKORMA")||
-        jenisKegiatan.equalsIgnoreCase("Mandiri")) {
 
 
     }
