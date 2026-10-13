@@ -35,10 +35,12 @@ public class StudiKasus2_16 {
     } else if (jenisKegiatan.equalsIgnoreCase("PKM")) {
           System.out.print("Status pendanaan (1 = lolos, 0 = tidak lolos): ");
           statusPendanaan = sc.nextInt();
+
         if (statusPendanaan == 1) {
             if (jumlahDokumen == 4) {
                 System.out.println("Status: Dokumen lengkap. Dana penghargaan diberikan.");
             } else {
+                System.out.println("Status: Dokumen lengkap, tetapi tidak lolos pendanaan. Dana penghargaan tidak diberikan.");
 
 
     }
