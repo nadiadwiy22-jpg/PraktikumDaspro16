@@ -18,6 +18,7 @@ public class StudiKasus2_16 {
         if (jenisKegiatan.equalsIgnoreCase("BELMAWA") ||
         jenisKegiatan.equalsIgnoreCase("BAKORMA") ||
         jenisKegiatan.equalsIgnoreCase("Mandiri")) {
+            
 
 
 
