@@ -28,6 +28,13 @@ public class StudiKasus2_16 {
             } else {
                 kurang = 4 - jumlahDokumen;
                  System.out.println("Status: Dokumen tidak lengkap (kurang " + kurang + " dokumen). Dana penghargaan tidak diberikan.");
+                 }
+        } else {
+            System.out.println("Status: Peringkat juara tidak valid. Dana penghargaan tidak diberikan.");
+        }
+    } else if (jenisKegiatan.equalsIgnoreCase("PKM")) {
+          System.out.print("Status pendanaan (1 = lolos, 0 = tidak lolos): ");
+
 
 
 
