@@ -21,7 +21,15 @@ public class StudiKasus2_16 {
 
         System.out.print("Peringkat juara: ");
         peringkat = sc.nextInt();
-        
+
+        if (peringkat >= 1 && peringkat <= 3) {
+            if (jumlahDokumen == 4) {
+                System.out.println("Status: Dokumen lengkap. Dana penghargaan diberikan.");
+            } else {
+                kurang = 4 - jumlahDokumen;
+                 System.out.println("Status: Dokumen tidak lengkap (kurang " + kurang + " dokumen). Dana penghargaan tidak diberikan.");
+
+
 
 
 
