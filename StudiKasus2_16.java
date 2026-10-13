@@ -4,5 +4,5 @@ public class StudiKasus2_16 {
         Scanner sc = new Scanner(System.in);
 
     }
+    
 }
-
