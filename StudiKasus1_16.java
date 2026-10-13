@@ -19,7 +19,6 @@ public class StudiKasus1_16 {
         diskon = (int) (totalHarga * 0.1);
     } 
     totalBayar = totalHarga - diskon;
-    
 
     System.out.println("Total harga: Rp " + totalHarga);
     System.out.println("Diskon: Rp " + diskon);
